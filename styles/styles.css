@@ -917,3 +917,10 @@ section {
 }
 
 
+@media screen and (min-width: 1432px) {
+
+.section {
+    padding: 7rem 11rem;
+  }
+}
+
