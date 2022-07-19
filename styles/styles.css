@@ -885,3 +885,35 @@ section {
     font-size: 4rem;
   }
 }/*# sourceMappingURL=styles.css.map */
+
+
+/*** 
+  mobil responsive edit
+***/
+@media only screen and (max-width: 600px) {
+    .main-title h2 span {
+        font-size: 3rem;
+    }
+
+    .portfolios,
+    .blogs {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .portfolios .portfolio-item,
+    .blogs .blog {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .about-container .right-about .about-item .abt-text {
+        padding: 0.6rem;
+    }
+
+    .about-container .right-about .about-item .abt-text .large-text {
+        font-size: 2.5rem;
+    }
+}
+
+
